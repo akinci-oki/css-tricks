@@ -6,6 +6,7 @@ const Router = () => (
     <BrowserRouter>
         <Routes>
             <Route exact path="/" element={<Homepage />}></Route>
+            <Route exact path="/people" element={<Tablepage />}></Route>
             {/* <Route path="/settings" element={<Settingspage />}></Route> */}
             {/* <Route path="/*" element={<NotFound />}></Route> */}
         </Routes>
