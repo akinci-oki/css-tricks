@@ -1,94 +1,14 @@
+import React from "react";
 import "./App.scss";
-import { Sticky } from "./components";
+import Router from "./Router";
 
-function App() {
-    return (
-        <div className="App">
-            <Sticky />
-            <div className="text">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                    cursus diam ac auctor semper.
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                    cursus diam ac auctor semper.
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                    cursus diam ac auctor semper.
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                    cursus diam ac auctor semper.
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                    cursus diam ac auctor semper.
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                    cursus diam ac auctor semper.
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                    cursus diam ac auctor semper.
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                    cursus diam ac auctor semper.
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                    cursus diam ac auctor semper.
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                    cursus diam ac auctor semper.
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                    cursus diam ac auctor semper.
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                    cursus diam ac auctor semper.
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                    cursus diam ac auctor semper.
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                    cursus diam ac auctor semper.
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                    cursus diam ac auctor semper.
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                    cursus diam ac auctor semper.
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                    cursus diam ac auctor semper.
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                    cursus diam ac auctor semper.
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                    cursus diam ac auctor semper.
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                    cursus diam ac auctor semper.
-                </p>
+class App extends React.Component {
+    render() {
+        return (
+            <div className="App">
+                <Router />
             </div>
-        </div>
-    );
+        );
+    }
 }
-
 export default App;
