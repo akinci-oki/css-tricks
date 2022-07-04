@@ -1,8 +1,35 @@
+table {
+    max-width: 100%;
+    width: 100%;
+}
+
 td,
 th {
     border: 1px solid #999;
     padding: 0.5rem;
     background-color: white;
+}
+
+.tablesec, .table {
+    border: 2px solid yellow;
+    width: 50%;
+}
+
+.tablesec {
+    border-radius: 16px;
+    td:nth-child(1) {
+            background: hsl(145, 90%, 50%);}
+        td:nth-child(2) {
+            background: hsl(140, 90%, 50%);}
+        td:nth-child(3) {
+            background: hsl(130, 80%, 40%);}
+        td:nth-child(4) {
+            background: hsl(130, 75%, 40%);}
+        td:nth-child(5) {
+            background: hsl(120, 60%, 40%);}
+        td:nth-child(6) {
+            background: hsl(100, 50%, 50%);}
+    border-spacing: 0.5rem;
 }
 
 .gradient-border {
